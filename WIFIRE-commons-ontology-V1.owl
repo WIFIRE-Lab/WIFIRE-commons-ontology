@@ -1241,6 +1241,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Delta_of_fuel_load">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Fuel_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delta_of_fuel_load</rdfs:label>
     </owl:Class>
     
 
@@ -1249,13 +1250,16 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Delta_of_moisture">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Fuel_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delta_of_moisture</rdfs:label>
     </owl:Class>
     
 
 
     <!-- urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Empirical_Model -->
 
-    <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Empirical_Model"/>
+    <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Empirical_Model">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empirical_Model</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1263,6 +1267,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Energy_output">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy_output</rdfs:label>
     </owl:Class>
     
 
@@ -1271,6 +1276,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Energy_release_to_atmosphere">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Energy_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy_release_to_atmosphere</rdfs:label>
     </owl:Class>
     
 
@@ -1279,6 +1285,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Fuel">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_input"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuel</rdfs:label>
     </owl:Class>
     
 
@@ -1287,6 +1294,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Fuel_output">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuel_output</rdfs:label>
     </owl:Class>
     
 
@@ -1296,19 +1304,24 @@
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Heterogeneity">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8weEXeB2IW9bHK4UPDvUNx"/>
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RP2B9bJo5sPPwUkTMqcHnP"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterogeneity</rdfs:label>
     </owl:Class>
     
 
 
     <!-- urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_input -->
 
-    <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_input"/>
+    <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_input">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Model_input</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_output -->
 
-    <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_output"/>
+    <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_output">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Model_output</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1316,6 +1329,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Wind_direction">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Wind_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wind_direction</rdfs:label>
     </owl:Class>
     
 
@@ -1324,6 +1338,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Wind_output">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Model_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wind_output</rdfs:label>
     </owl:Class>
     
 
@@ -1332,6 +1347,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#2D">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwgyXL8wrAyn4b2n1KykDy"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2D</rdfs:label>
     </owl:Class>
     
 
@@ -1340,6 +1356,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#2D_fuel">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Fuel"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2D_fuel</rdfs:label>
     </owl:Class>
     
 
@@ -1348,6 +1365,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#2D_input">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#2D"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2D_input</rdfs:label>
     </owl:Class>
     
 
@@ -1356,6 +1374,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#3D_fuel">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Fuel"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D_fuel</rdfs:label>
     </owl:Class>
     
 
@@ -1364,6 +1383,7 @@
 
     <owl:Class rdf:about="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#3D_wind_field">
         <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:0d558b44-cbe2-4642-8662-a2e673001cd1#Wind_output"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D_wind_field</rdfs:label>
     </owl:Class>
     
 
